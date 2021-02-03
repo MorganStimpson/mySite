@@ -16,17 +16,19 @@ body{
     margin: 0px;
     padding: 0px;
     font-size: 2.0em;
+
 }
 
-.heading {
-    background-color: var(--secondary-color);
-    color: var(--primary-color)
+a {
+    text-decoration: none;
 }
 
 /* NAV */
 nav{
     display: block;
     font-size: 1.2em;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 nav ul{
@@ -58,6 +60,7 @@ nav ul li a{
 /* BANNER */
 .heroimage{
     background-size: cover;
+    background-color: var(--secondary-color);
     height: 100vh;
 }
 
@@ -70,6 +73,7 @@ nav ul li a{
     vertical-align: middle;
     margin: auto;
     z-index: 2;
+    color: var(--primary-color);
 }
 
 .heroitems h1{
@@ -79,6 +83,17 @@ nav ul li a{
 .heroitems p{
     font-size: 5em;
 }
+
+/*
+ * want a decent little thing here. How do I make it bigger?
+ */
+/* .deadwood {
+    background-image: url('../images/board.jpg');
+    background-size: cover;
+    /* width: 50vh; */
+    /* height: 50vh; */
+    /* color: var(--primary-color); */
+/* } */
 
 /* Particles */
 #particles-js{
