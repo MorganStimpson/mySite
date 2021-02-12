@@ -1,12 +1,13 @@
 *{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    font-size: 1em;
 }
 
 :root{
     --primary-color: white;
     --secondary-color: black;
-    --accent-color: aqua;
+    --accent-color: #69A2B0;
 }
 
 body{
@@ -21,6 +22,15 @@ body{
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+b {
+    color: var(--accent-color);
+    font-size: 1.15em;
 }
 
 /* NAV */
@@ -84,30 +94,15 @@ nav ul li a{
     font-size: 5em;
 }
 
-/*
- * want a decent little thing here. How do I make it bigger?
- */
-/* .deadwood {
-    background-image: url('../images/board.jpg');
-    background-size: cover;
-    /* width: 50vh; */
-    /* height: 50vh; */
-    /* color: var(--primary-color); */
-/* } */
-
-/* Particles */
-#particles-js{
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        background-position: 50% 50%;
-        background-repeat: no-repeat;
-}
-
 img{
     width: 100%;
 }
 
 li {
     list-style-type: none;
+}
+
+.emphasis {
+    color: var(--accent-color);
+
 }
