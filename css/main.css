@@ -106,3 +106,15 @@ li {
     color: var(--accent-color);
 
 }
+
+i {
+    /* color: var(--primary-color); */
+    background-color: var(--accent-color);
+    border-style: solid;
+    padding: .1em;
+}
+
+i:hover{
+    color: var(--accent-color);
+    background-color: var(--secondary-color);
+}
